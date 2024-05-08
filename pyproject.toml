@@ -1,0 +1,29 @@
+[tool.black]
+line-length = 120
+
+[tool.pytest.ini_options]
+python_files = "*_test.py"
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.mypy]
+
+# Disallow using Any in the scalabel code
+disallow_any_explicit = true
+disallow_any_generics = true
+disallow_subclassing_any = true
+
+[project]
+name = "icg_benchmark"
+version = "1.0"
+license = "MIT"
+authors = ["Rene Zurbruegg <zrene@ethz.ch>"]
+
+
+[tool.setuptools.packages.find]
+where = ["."]  # list of folders that contain the packages (["."] by default)
+include = ["icg_benchmark"]  # package names should match these glob patterns (["*"] by default)
+exclude = []  # exclude packages matching these glob patterns (empty by default)
+namespaces = false  # to disable scanning PEP 420 name

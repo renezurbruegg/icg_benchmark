@@ -1,0 +1,10 @@
+black
+isort
+setuptools
+tqdm
+wheel
+numpy
+pybullet
+open3d
+termcolor
+Cython
