@@ -1,4 +1,5 @@
 black
+gdown
 isort
 setuptools
 tqdm
