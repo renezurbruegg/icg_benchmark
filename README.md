@@ -40,8 +40,13 @@ To get a local copy up and running follow these simple example steps.
 # Install the requirements
 pip install -r requirements.txt
 
-# Build the extension
-python setup.py build_ext --inplace
+# Build the package as wheel
+python setup.py bdist_wheel
+
+# Install the package
+pip install dist/<your_wheel_name>.whl
+
+
 
 # Install the package
 pip install -e .

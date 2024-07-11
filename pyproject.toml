@@ -18,8 +18,7 @@ disallow_subclassing_any = true
 [project]
 name = "icg_benchmark"
 version = "1.0"
-license = "MIT"
-authors = ["Rene Zurbruegg <zrene@ethz.ch>"]
+authors = [{name = "Rene Zurbruegg", email = "zrene@ethz.ch"}]
 
 
 [tool.setuptools.packages.find]

@@ -40,7 +40,6 @@ class EdgeGraspPlanner(GraspPlannerModule[o3d.geometry.PointCloud]):
             pc = observation_cb(timer)
             if pc is None:
                 return None
-
             pos = np.asarray(pc.points)
             normals = np.asarray(pc.normals)
             pos = torch.from_numpy(pos).to(torch.float32).to(self.device)
