@@ -40,9 +40,6 @@ To get a local copy up and running follow these simple example steps.
 # Install the requirements
 pip install -r requirements.txt
 
-# Build the extension
-python setup.py build_ext --inplace
-
 # Install the package
 pip install -e .
 
@@ -109,7 +106,12 @@ Distributed under the BSD-2 License. See `LICENSE.txt` for more information.
 ## Citing
 If you use this code in your research, please cite the following paper:
 ```
-
+@article{zurbrugg2024icgnet,
+  title={ICGNet: A Unified Approach for Instance-Centric Grasping},
+  author={Zurbr{\"u}gg, Ren{\'e} and Liu, Yifan and Engelmann, Francis and Kumar, Suryansh and Hutter, Marco and Patil, Vaishakh and Yu, Fisher},
+  journal={arXiv preprint arXiv:2401.09939},
+  year={2024}
+}
 ```
 
 Also consider citing the original work by Breyer et. al that introduced the benchmark environment:

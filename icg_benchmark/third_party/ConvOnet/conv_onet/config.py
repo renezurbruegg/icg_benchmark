@@ -5,7 +5,7 @@ import os
 from icg_benchmark.third_party.ConvOnet.encoder import encoder_dict
 from icg_benchmark.third_party.ConvOnet.conv_onet import models
 from icg_benchmark.third_party.ConvOnet.conv_onet import generation
-from icg_benchmark.third_party.ConvOnet import data
+# from icg_benchmark.third_party.ConvOnet import data
 from icg_benchmark.third_party.ConvOnet import config
 from icg_benchmark.third_party.ConvOnet.common import decide_total_volume_range, update_reso
 from torchvision import transforms

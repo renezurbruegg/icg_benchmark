@@ -1,6 +1,6 @@
 import yaml
 from torchvision import transforms
-from icg_benchmark.third_party.ConvOnet import data
+# from icg_benchmark.third_party.ConvOnet import data
 from icg_benchmark.third_party.ConvOnet import conv_onet
 
 
